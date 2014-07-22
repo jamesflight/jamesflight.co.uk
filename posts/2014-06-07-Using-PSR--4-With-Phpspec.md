@@ -1,0 +1,1 @@
+Upon fiddling around with Phpspec for the first time, I got frustrated pretty quickly with the fact that it seemed to always generate files using the PSR-0 standard with no seeming support for PSR-4. Turns out you actually can use PSR-4, it's just only documented in the github issue log 

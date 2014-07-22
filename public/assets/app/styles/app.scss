@@ -1,0 +1,254 @@
+@import 'compass';
+@import 'vendor/bootstrap';
+@import 'vendor/normalize';
+@import 'syntax';
+
+// Color Scheme
+// Oranges
+$brilliant-red: #70D277;
+$light-red:#4CD255;
+$rich-red:#FF7400;
+$faded-red:#BF7130;
+$dull-red: #A64B00;
+
+// Blues
+$brilliant-green: #70D277;
+$light-green:#4CD255;
+$rich-green:#19A622;
+$faded-green:#2D7C32;
+$dull-green: #086C0F;
+
+//Black and white
+$black:#0A0A0A;
+$dark-grey:#3B3B3B;
+$medium-grey:#808080;
+$light-grey:#BABABA;
+$white:#fff;
+
+$indent-val:1em;
+$custom-font-family:"Open Sans";
+$body-copy-color: $dark-grey;
+$heading-color: $black;
+@import '../../bower_components/typeplate/scss/typeplate';
+
+.profile-pic
+{
+	max-width:10em;
+}
+
+body
+{
+	background:$white;
+}
+
+.title-anchor
+{
+	a
+	{
+		color:$black;
+	}
+}
+
+.medium-grey-text
+{
+	color:$medium-grey;
+}
+
+.light-grey-text
+{
+	color:$light-grey;
+}
+
+.light-grey-background
+{
+	background:#f1f1f1;
+}
+
+.triangles
+{
+	background:url('/triangle.png') repeat-x;
+	height:16px;
+}
+
+.text-align-right
+{
+	text-align:right;
+}
+
+.float
+{
+	.l
+	{
+		float:left;
+	}
+
+	.r
+	{
+		float:right;
+	}
+}
+
+.paragraph-font
+{
+	font-family:$custom-font-family, $font-family;
+}
+
+.clearfix
+{
+	clear:both;
+}
+
+hr
+{
+	margin-top:$indent-val;
+	margin-bottom:$indent-val;
+}
+
+code
+{
+	border-radius:4px;
+}
+
+ul,ol {
+	margin:0;
+	margin-bottom:$indent-val;
+}
+
+body
+{
+
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight:normal;
+	font-family:"Raleway", $font-family;
+}
+
+a
+{
+	color:$light-red;
+	text-decoration:none;
+
+	&:hover
+	{
+		color:$brilliant-red;
+	}
+}
+
+.no-margin-bottom
+{
+	margin-bottom:0;
+}
+
+.bold-heading
+{
+	font-weight:bold;
+}
+
+.medium-grey-text
+{
+	color:$medium-grey;
+}
+
+.white-text
+{
+	color:$white;
+}
+
+.rich-red-background
+{
+background-color:$black;
+}
+
+.white-links
+{
+	a
+	{
+		color:$white;
+
+		&:hover
+		{
+			color:$light-grey;
+		}
+	}
+}
+
+.black-background
+{
+	background:$black;
+}
+
+.spacer-2
+{
+	height:$indent-val*2;
+}
+
+hr
+{
+	border-color:#e3e3e3;
+	border-style:dashed;
+}
+
+.text-align-center
+{
+	text-align:center;
+}
+
+
+
+.padding-small
+{
+	padding:$indent-val;
+}
+
+
+
+.white-background
+{
+	background:#FFF;
+}
+
+@media(max-width:480px)
+{
+	html
+	{
+		font-size:90%;
+	}
+	
+}
+
+.wide-letters
+{
+	letter-spacing:0.1em;
+}
+
+.padded-links
+{
+	a
+	{
+		display:inline-block;
+		padding-left:$indent-val/2;
+		padding-right:$indent-val/2;
+	}
+}
+
+.padding-large
+{
+	padding:2*$indent-val;
+}
+
+.menu-padding
+{
+	padding:$indent-val ($indent-val/2);
+}
+
+.margin-top-medium
+{
+	margin-top:$indent-val;
+}
+
+.padding-sides-medium
+{
+	padding:0 $indent-val 0 $indent-val;
+}
